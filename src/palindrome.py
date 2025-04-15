@@ -1,5 +1,5 @@
 
-def is_palidrome(texto):
+def is_palindrome(texto):
 
     texto_limpio = limpiar_texto(texto)
 
