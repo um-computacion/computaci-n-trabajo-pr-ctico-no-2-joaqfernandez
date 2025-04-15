@@ -13,3 +13,6 @@ def limpiar_texto(texto):
         if caracter.isalnum():
             limpio += caracter
     return limpio
+
+def comparar(texto_limpio):
+    return texto_limpio == texto_limpio[::-1]
