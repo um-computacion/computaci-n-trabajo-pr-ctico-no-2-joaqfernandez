@@ -1,5 +1,5 @@
 import unittest
-from palindromo import es_palindromo 
+from palindrome import es_palindromo 
 
 class TestPalindromos(unittest.TestCase):
     def test_palabra_simple(self):
