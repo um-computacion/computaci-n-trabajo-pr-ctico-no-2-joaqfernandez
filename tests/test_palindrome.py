@@ -1,18 +1,18 @@
 import unittest
-from palindrome import es_palindromo 
+from palindrome import es_palindrome 
 
 class TestPalindromos(unittest.TestCase):
     def test_palabra_simple(self):
-        self.assertTrue(es_palindromo("reconocer"))
+        self.assertTrue(is_palindrome("reconocer"))
 
     def test_con_espacios(self):
-        self.assertTrue(es_palindromo("buenas tardes profe quinteros"))
+        self.assertTrue(is_palindrome("buenas tardes profe quinteros"))
 
     def test_no_es_palindromo(self):
-        self.assertFalse(es_palindromo("race a car"))
+        self.assertFalse(is_palindrome("race a car"))
 
     def test_no_es_palindromo(self):
-        self.assertFalse(es_palindromo("Mundo"))
+        self.assertFalse(is_palindrome("Mundo"))
 
 if __name__ == '__main__':
     unittest.main()
